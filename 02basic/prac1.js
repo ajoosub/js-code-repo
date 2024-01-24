@@ -28,6 +28,10 @@ console.log(myarr2)
 console.log(myarr1)
 
 console.log("JOIN")
-console.log(myarr2.join(","))
+const narr = myarr1.join(",")
 console.log(typeof(myarr1))
+console.log(typeof(narr))
+
+console.log(myarr1.includes(9))
+console.log(myarr1.indexOf(2))
 
