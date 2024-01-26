@@ -22,8 +22,9 @@ let score2=40;
 let score=50;
 let myarr = (Array.of(score1,score2,score))
 console.log(myarr)
-let newarr2 = [...Array.of(obj)]
-console.log(newarr2).
+const newarr2 = [...Array.of(obj)]
+const newarr3 = (newarr2.flat(Infinity))
+console.log(newarr3)
 
 
 
