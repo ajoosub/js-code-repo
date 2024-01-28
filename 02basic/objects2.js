@@ -29,6 +29,26 @@ if(userInfo.hasOwnProperty("names")){
 else
 console.log(false)
 
+//const bookid = Symbol("id") 
+const arrObject = [
+    {
+        bookid: 1,
+        email: "1@yahoo.com"
+    },
+    {
+        bookid:2,
+        email:"2@yahoo.com"
+    },
+    {
+        bookid:3,
+        email:"3@yahoo.com"
+    }
+]
+
+console.log(arrObject[1].bookid)
+
+const arrobj = {...arrObject} 
+console.log(`${Object.keys(arrobj)}`)
 
 
 
