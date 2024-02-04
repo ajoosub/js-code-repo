@@ -25,3 +25,17 @@ username:"Joosub",
  id:123   
 })
 console.log(onjdetail)
+console.log();
+console.log(`IIFE: Immediate Invoking function epression`)
+function sum(a, b){
+    return a + b;
+}
+//console.log(sum(1,3))
+
+( function sum2(c,d) {
+    console.log(c+d)
+} ) ( 1,3 );
+
+( (name) => {
+    console.log(`${name}`);
+}) ('Jos')
