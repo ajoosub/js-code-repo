@@ -36,11 +36,11 @@ let mybook = books.filter( (bk) => {
 //console.log(mybook,count)
 
 let pubdate = books.map( (bk) => {
-    if (!bk.publish > 1987 && !bk.publish < 2009){
-        return
+    if (bk.publish > 1987 && bk.publish < 2009){
+        return bk
     }
     else{
-        return bk.publish
+        return "notound"
     }
     
 } );
