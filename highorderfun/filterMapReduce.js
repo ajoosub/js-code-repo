@@ -40,8 +40,17 @@ let pubdate = books.map( (bk) => {
         return bk
     }
     else{
-        return "notound"
+        return -1
     }
     
 } );
-console.log(pubdate);
+//console.log(pubdate);
+
+const check = ( () => ({username:"AHmed"}) )
+//console.log(check());
+
+
+const mysecarr = [1,2,3,4]
+let initialvalue = 2
+let redu = mysecarr.reduce( (accu , curval) => accu + curval,initialvalue )
+console.log(redu);
